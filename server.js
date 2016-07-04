@@ -24,7 +24,7 @@ app.use('/create', routes);
 app.use('/update', routes);
 app.use('/delete', routes);
 
-var PORT = process.env.PORT || 8000;
+var PORT = process.env.PORT || 1000;
 
 app.listen(PORT, function() {
   console.log("Listening on %s", PORT);
